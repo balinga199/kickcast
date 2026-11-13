@@ -1,0 +1,33 @@
+name: Build Android APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - name: Create Expo project
+        run: |
+          npx create-expo-app@latest kickcast --template blank --yes
+          cp app/App.js kickcast/App.js
+          cd kickcast
+          node -e "const f=require('./app.json');f.expo.name='KickCast';f.expo.android={...(f.expo.android||{}),package:'com.kickcast.app'};require('fs').writeFileSync('app.json',JSON.stringify(f,null,2))"
+      - name: Build APK
+        run: |
+          cd kickcast
+          npx expo prebuild --platform android
+          cd android
+          ./gradlew assembleRelease
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kickcast-apk
+          path: kickcast/android/app/build/outputs/apk/release/*.apk
