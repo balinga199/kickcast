@@ -1,5 +1,136 @@
 {
-  "generated": "2026-11-19T14:50:02.196936+00:00",
+  "generated": "2026-11-20T14:29:55.161188+00:00",
   "league": "E0",
-  "predictions": []
+  "predictions": [
+    {
+      "date": "21/11/2026",
+      "time": "12:30",
+      "home": "Man City",
+      "away": "Fulham",
+      "p_home": 0.637,
+      "p_draw": 0.215,
+      "p_away": 0.148,
+      "xg_home": 1.89,
+      "xg_away": 0.78,
+      "pick": "Home win",
+      "confidence": 0.637
+    },
+    {
+      "date": "21/11/2026",
+      "time": "15:00",
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "p_home": 0.557,
+      "p_draw": 0.222,
+      "p_away": 0.221,
+      "xg_home": 1.91,
+      "xg_away": 1.12,
+      "pick": "Home win",
+      "confidence": 0.557
+    },
+    {
+      "date": "21/11/2026",
+      "time": "15:00",
+      "home": "Bournemouth",
+      "away": "Nott'm Forest",
+      "p_home": 0.532,
+      "p_draw": 0.25,
+      "p_away": 0.218,
+      "xg_home": 1.6,
+      "xg_away": 0.93,
+      "pick": "Home win",
+      "confidence": 0.532
+    },
+    {
+      "date": "21/11/2026",
+      "time": "15:00",
+      "home": "Chelsea",
+      "away": "Leeds",
+      "p_home": 0.411,
+      "p_draw": 0.264,
+      "p_away": 0.325,
+      "xg_home": 1.38,
+      "xg_away": 1.2,
+      "pick": "Home win",
+      "confidence": 0.411
+    },
+    {
+      "date": "21/11/2026",
+      "time": "15:00",
+      "home": "Coventry",
+      "away": "Crystal Palace",
+      "p_home": 0.477,
+      "p_draw": 0.24,
+      "p_away": 0.283,
+      "xg_home": 1.68,
+      "xg_away": 1.24,
+      "pick": "Home win",
+      "confidence": 0.477
+    },
+    {
+      "date": "21/11/2026",
+      "time": "15:00",
+      "home": "Tottenham",
+      "away": "Ipswich",
+      "p_home": 0.504,
+      "p_draw": 0.242,
+      "p_away": 0.254,
+      "xg_home": 1.67,
+      "xg_away": 1.12,
+      "pick": "Home win",
+      "confidence": 0.504
+    },
+    {
+      "date": "21/11/2026",
+      "time": "17:30",
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "p_home": 0.133,
+      "p_draw": 0.233,
+      "p_away": 0.634,
+      "xg_home": 0.63,
+      "xg_away": 1.7,
+      "pick": "Away win",
+      "confidence": 0.634
+    },
+    {
+      "date": "22/11/2026",
+      "time": "14:00",
+      "home": "Hull",
+      "away": "Brighton",
+      "p_home": 0.162,
+      "p_draw": 0.23,
+      "p_away": 0.608,
+      "xg_home": 0.78,
+      "xg_away": 1.76,
+      "pick": "Away win",
+      "confidence": 0.608
+    },
+    {
+      "date": "22/11/2026",
+      "time": "16:30",
+      "home": "Liverpool",
+      "away": "Man United",
+      "p_home": 0.557,
+      "p_draw": 0.215,
+      "p_away": 0.228,
+      "xg_home": 2.01,
+      "xg_away": 1.22,
+      "pick": "Home win",
+      "confidence": 0.557
+    },
+    {
+      "date": "23/11/2026",
+      "time": "20:00",
+      "home": "Brentford",
+      "away": "Everton",
+      "p_home": 0.464,
+      "p_draw": 0.272,
+      "p_away": 0.264,
+      "xg_home": 1.39,
+      "xg_away": 0.97,
+      "pick": "Home win",
+      "confidence": 0.464
+    }
+  ]
 }
